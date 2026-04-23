@@ -78,264 +78,82 @@
                                                                               margin-bottom: 20px;
                                                                               }
 
-                                                                              /* ABOUT */
-                                                                              
-                                                                                .about {
-                                                                                    display: flex;
-                                                                                      flex-direction: column;
-                                                                                        align-items: center;
-                                                                                          text-align: center;
-                                                                                            gap: 15px;
-                                                                                            }
-                                                                                
-
-                                                                                    .about img {
-                                                                                      width: 300px;
-                                                                                        border-radius: 10px;
+                                                                              /* ABOUT (AGORA VAI FUNCIONAR) */
+                                                                              .about {
+                                                                                display: flex !important;
+                                                                                  flex-direction: column !important;
+                                                                                    align-items: center;
+                                                                                      text-align: center;
+                                                                                        gap: 15px;
                                                                                         }
 
-                                                                                        /* SERVICES */
-                                                                                        .services {
-                                                                                          display: grid;
-                                                                                            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                                                                                              gap: 20px;
-                                                                                              }
+                                                                                        .about img {
+                                                                                          width: 300px;
+                                                                                            border-radius: 10px;
+                                                                                            }
 
-                                                                                              .card {
-                                                                                                background: white;
-                                                                                                  padding: 20px;
-                                                                                                    text-align: center;
-                                                                                                      border-radius: 10px;
-                                                                                                        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-                                                                                                        }
+                                                                                            /* SERVICES */
+                                                                                            .services {
+                                                                                              display: grid;
+                                                                                                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                                                                                                  gap: 20px;
+                                                                                                  }
 
-                                                                                                        /* BEFORE AFTER */
-                                                                                                        .before-after {
-                                                                                                          display: grid;
-                                                                                                            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                                                                                                              gap: 20px;
-                                                                                                              }
+                                                                                                  .card {
+                                                                                                    background: white;
+                                                                                                      padding: 20px;
+                                                                                                        text-align: center;
+                                                                                                          border-radius: 10px;
+                                                                                                            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+                                                                                                            }
 
-                                                                                                              /* TESTIMONIALS */
-                                                                                                              .testimonials {
-                                                                                                                display: grid;
-                                                                                                                  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                                                                                                                    gap: 20px;
-                                                                                                                    }
+                                                                                                            /* BEFORE AFTER */
+                                                                                                            .before-after,
+                                                                                                            .testimonials {
+                                                                                                              display: grid;
+                                                                                                                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                                                                                                                  gap: 20px;
+                                                                                                                  }
 
-                                                                                                                    .testimonial {
-                                                                                                                      background: white;
-                                                                                                                        padding: 20px;
-                                                                                                                          border-radius: 10px;
-                                                                                                                          }
+                                                                                                                  .testimonial {
+                                                                                                                    background: white;
+                                                                                                                      padding: 20px;
+                                                                                                                        border-radius: 10px;
+                                                                                                                        }
 
-                                                                                                                          /* CTA */
-                                                                                                                          .cta {
-                                                                                                                            text-align: center;
-                                                                                                                              background: #f3f3f3;
-                                                                                                                                padding: 80px 10%;
-                                                                                                                                }
+                                                                                                                        /* CTA */
+                                                                                                                        .cta {
+                                                                                                                          text-align: center;
+                                                                                                                            background: #f3f3f3;
+                                                                                                                              padding: 80px 10%;
+                                                                                                                              }
 
-                                                                                                                                /* WHATSAPP FLUTUANTE */
-                                                                                                                                .whatsapp-float {
-                                                                                                                                  position: fixed;
-                                                                                                                                    bottom: 20px;
-                                                                                                                                      right: 20px;
-                                                                                                                                        background: #25D366;
-                                                                                                                                          color: white;
-                                                                                                                                            padding: 15px;
-                                                                                                                                              border-radius: 50%;
-                                                                                                                                                font-size: 22px;
-                                                                                                                                                  text-decoration: none;
-                                                                                                                                                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                                                                                                                                                    }
+                                                                                                                              /* WHATSAPP */
+                                                                                                                              .whatsapp-float {
+                                                                                                                                position: fixed;
+                                                                                                                                  bottom: 20px;
+                                                                                                                                    right: 20px;
+                                                                                                                                      background: #25D366;
+                                                                                                                                        color: white;
+                                                                                                                                          padding: 15px;
+                                                                                                                                            border-radius: 50%;
+                                                                                                                                              font-size: 22px;
+                                                                                                                                                text-decoration: none;
+                                                                                                                                                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                                                                                                                                                  }
 
-                                                                                                                                                    /* RESPONSIVO */
-                                                                                                                                                    @media (max-width: 768px) {
+                                                                                                                                                  /* RESPONSIVO */
+                                                                                                                                                  @media (max-width: 768px) {
 
-                                                                                                                                                      .hero h1 {
-                                                                                                                                                          font-size: 28px;
-                                                                                                                                                            }
+                                                                                                                                                    .hero h1 {
+                                                                                                                                                        font-size: 28px;
+                                                                                                                                                          }
 
-                                                                                                                                                              .hero p {
-                                                                                                                                                                  font-size: 16px;
-                                                                                                                                                                    }
+                                                                                                                                                            .hero p {
+                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                  }
 
-                                                                                                                                                                      .about {
-                                                                                                                                                                          flex-direction: column;
-                                                                                                                                                                              text-align: center;
-                                                                                                                                                                                }
-
-                                                                                                                                                                                  section {
-                                                                                                                                                                                      padding: 40px 5%;
-                                                                                                                                                                                        }
-
-                                                                                                                                                                                        }/* RESET */
-                                                                                                                                                                                        * {
-                                                                                                                                                                                          margin: 0;
-                                                                                                                                                                                            padding: 0;
-                                                                                                                                                                                              box-sizing: border-box;
-                                                                                                                                                                                                font-family: Arial, sans-serif;
-                                                                                                                                                                                                }
-
-                                                                                                                                                                                                body {
-                                                                                                                                                                                                  background: #fafafa;
-                                                                                                                                                                                                    color: #333;
-                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                    /* IMAGENS */
-                                                                                                                                                                                                    img {
-                                                                                                                                                                                                      max-width: 100%;
-                                                                                                                                                                                                        height: auto;
-                                                                                                                                                                                                          display: block;
-                                                                                                                                                                                                          }
-
-                                                                                                                                                                                                          /* HERO */
-                                                                                                                                                                                                          .hero {
-                                                                                                                                                                                                            height: 100vh;
-                                                                                                                                                                                                              background: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85') center/cover;
-                                                                                                                                                                                                                display: flex;
-                                                                                                                                                                                                                  align-items: center;
-                                                                                                                                                                                                                    justify-content: center;
-                                                                                                                                                                                                                      text-align: center;
-                                                                                                                                                                                                                        position: relative;
-                                                                                                                                                                                                                          color: white;
-                                                                                                                                                                                                                            padding: 20px;
-                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                            .hero::before {
-                                                                                                                                                                                                                              content: "";
-                                                                                                                                                                                                                                position: absolute;
-                                                                                                                                                                                                                                  inset: 0;
-                                                                                                                                                                                                                                    background: rgba(0,0,0,0.5);
-                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                    .hero-content {
-                                                                                                                                                                                                                                      position: relative;
-                                                                                                                                                                                                                                        max-width: 700px;
-                                                                                                                                                                                                                                        }
-
-                                                                                                                                                                                                                                        .hero h1 {
-                                                                                                                                                                                                                                          font-size: 42px;
-                                                                                                                                                                                                                                            margin-bottom: 15px;
-                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                            .hero p {
-                                                                                                                                                                                                                                              font-size: 18px;
-                                                                                                                                                                                                                                                margin-bottom: 25px;
-                                                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                                                /* BOTÕES */
-                                                                                                                                                                                                                                                .btn {
-                                                                                                                                                                                                                                                  padding: 12px 20px;
-                                                                                                                                                                                                                                                    border-radius: 6px;
-                                                                                                                                                                                                                                                      text-decoration: none;
-                                                                                                                                                                                                                                                        display: inline-block;
-                                                                                                                                                                                                                                                          margin-top: 10px;
-                                                                                                                                                                                                                                                          }
-
-                                                                                                                                                                                                                                                          .btn-primary {
-                                                                                                                                                                                                                                                            background: #c5a880;
-                                                                                                                                                                                                                                                              color: white;
-                                                                                                                                                                                                                                                              }
-
-                                                                                                                                                                                                                                                              /* SEÇÕES */
-                                                                                                                                                                                                                                                              section {
-                                                                                                                                                                                                                                                                padding: 60px 10%;
-                                                                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                                                                .title {
-                                                                                                                                                                                                                                                                  text-align: center;
-                                                                                                                                                                                                                                                                    font-size: 28px;
-                                                                                                                                                                                                                                                                      margin-bottom: 20px;
-                                                                                                                                                                                                                                                                      }
-
-                                                                                                                                                                                                                                                                      /* ABOUT */
-                                                                                                                                                                                                                                                                      .about {
-                                                                                                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                                                                                                          gap: 30px;
-                                                                                                                                                                                                                                                                            align-items: center;
-                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                            .about img {
-                                                                                                                                                                                                                                                                              width: 300px;
-                                                                                                                                                                                                                                                                                border-radius: 10px;
-                                                                                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                                                                                /* SERVICES */
-                                                                                                                                                                                                                                                                                .services {
-                                                                                                                                                                                                                                                                                  display: grid;
-                                                                                                                                                                                                                                                                                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                                                                                                                                                                                                                                                                                      gap: 20px;
-                                                                                                                                                                                                                                                                                      }
-
-                                                                                                                                                                                                                                                                                      .card {
-                                                                                                                                                                                                                                                                                        background: white;
-                                                                                                                                                                                                                                                                                          padding: 20px;
-                                                                                                                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                                                                                                                              border-radius: 10px;
-                                                                                                                                                                                                                                                                                                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-                                                                                                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                                                                                                /* BEFORE AFTER */
-                                                                                                                                                                                                                                                                                                .before-after {
-                                                                                                                                                                                                                                                                                                  display: grid;
-                                                                                                                                                                                                                                                                                                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                                                                                                                                                                                                                                                                                                      gap: 20px;
-                                                                                                                                                                                                                                                                                                      }
-
-                                                                                                                                                                                                                                                                                                      /* TESTIMONIALS */
-                                                                                                                                                                                                                                                                                                      .testimonials {
-                                                                                                                                                                                                                                                                                                        display: grid;
-                                                                                                                                                                                                                                                                                                          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                                                                                                                                                                                                                                                                                                            gap: 20px;
-                                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                                            .testimonial {
-                                                                                                                                                                                                                                                                                                              background: white;
-                                                                                                                                                                                                                                                                                                                padding: 20px;
-                                                                                                                                                                                                                                                                                                                  border-radius: 10px;
-                                                                                                                                                                                                                                                                                                                  }
-
-                                                                                                                                                                                                                                                                                                                  /* CTA */
-                                                                                                                                                                                                                                                                                                                  .cta {
-                                                                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                                                                      background: #f3f3f3;
-                                                                                                                                                                                                                                                                                                                        padding: 80px 10%;
-                                                                                                                                                                                                                                                                                                                        }
-
-                                                                                                                                                                                                                                                                                                                        /* WHATSAPP FLUTUANTE */
-                                                                                                                                                                                                                                                                                                                        .whatsapp-float {
-                                                                                                                                                                                                                                                                                                                          position: fixed;
-                                                                                                                                                                                                                                                                                                                            bottom: 20px;
-                                                                                                                                                                                                                                                                                                                              right: 20px;
-                                                                                                                                                                                                                                                                                                                                background: #25D366;
-                                                                                                                                                                                                                                                                                                                                  color: white;
-                                                                                                                                                                                                                                                                                                                                    padding: 15px;
-                                                                                                                                                                                                                                                                                                                                      border-radius: 50%;
-                                                                                                                                                                                                                                                                                                                                        font-size: 22px;
-                                                                                                                                                                                                                                                                                                                                          text-decoration: none;
-                                                                                                                                                                                                                                                                                                                                            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                                                                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                                                                            /* RESPONSIVO */
-                                                                                                                                                                                                                                                                                                                                            @media (max-width: 768px) {
-
-                                                                                                                                                                                                                                                                                                                                              .hero h1 {
-                                                                                                                                                                                                                                                                                                                                                  font-size: 28px;
-                                                                                                                                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                                                                                                                                      .hero p {
-                                                                                                                                                                                                                                                                                                                                                          font-size: 16px;
-                                                                                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                                                                                              .about {
-                                                                                                                                                                                                                                                                                                                                                                  flex-direction: column;
-                                                                                                                                                                                                                                                                                                                                                                      text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                        }
-
-                                                                                                                                                                                                                                                                                                                                                                          section {
-                                                                                                                                                                                                                                                                                                                                                                              padding: 40px 5%;
-                                                                                                                                                                                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                    section {
+                                                                                                                                                                        padding: 40px 5%;
+                                                                                                                                                                          }
+                                                                                                                                                                          }
