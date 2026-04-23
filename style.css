@@ -79,11 +79,15 @@
                                                                               }
 
                                                                               /* ABOUT */
-                                                                              .about {
-                                                                                display: flex;
-                                                                                  gap: 30px;
-                                                                                    align-items: center;
-                                                                                    }
+                                                                              
+                                                                                .about {
+                                                                                    display: flex;
+                                                                                      flex-direction: column;
+                                                                                        align-items: center;
+                                                                                          text-align: center;
+                                                                                            gap: 15px;
+                                                                                            }
+                                                                                
 
                                                                                     .about img {
                                                                                       width: 300px;
